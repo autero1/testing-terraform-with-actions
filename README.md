@@ -2,7 +2,7 @@
 
 This repository is an example of testing IaC libraries written with [Terraform](https://terraform.io) using
 [GitHub Actions](https://github.com/features/actions). For a detailed run-through, see the see accompanying blog post 
-[Testing Terraform Infrastructure Code with Terratest and GitHub Actions] in Medium.
+[Automate Testing for Terraform with GitHub Actions and Terratest](https://medium.com/@petriautero/automate-testing-for-terraform-with-github-actions-and-terratest).
 
 
 ## Prerequisites
@@ -10,9 +10,9 @@ This repository is an example of testing IaC libraries written with [Terraform](
 To successfully run all the examples, you need the following tools:
 
 * Repository in [GitHub](https://github.com) with the ability to run [GitHub Actions](https://github.com/features/actions)
-* [Terraform](https://terraform.io), a tool for building, changing, and versioning infrastructure safely and efficiently.
-* [Terratest](https://terratest.gruntwork.io/), a Go library that provides patterns and helper functions for testing infrastructure.
-* [Go](https://golang.org/) binary in your PATH.
+* [Terraform, v0.12.20+](https://terraform.io), a tool for building, changing, and versioning infrastructure safely and efficiently.
+* [Terratest](https://terratest.gruntwork.io/), a Go library that provides patterns and helper functions for testing infrastructure. Will be installed as a Go Library.
+* [Go, v1.13+](https://golang.org/) binary in your PATH.
 
 
 ## Running the tests
