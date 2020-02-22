@@ -4,7 +4,7 @@
 
 # REQUIRE A SPECIFIC TERRAFORM VERSION OR HIGHER
 terraform {
-  required_version = ">= 0.12.7"
+  required_version = ">= 0.12.20"
 }
 
 # ---------
