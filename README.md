@@ -2,7 +2,7 @@
 
 This repository is an example of testing IaC libraries written with [Terraform](https://terraform.io) using
 [GitHub Actions](https://github.com/features/actions). For a detailed run-through, see the see accompanying blog post 
-[Automate Terraform Testing with GitHub Actions and Terratest](https://medium.com/@petriautero/automate-terraform-testing-with-github-actions-and-terratest).
+[Automate Terraform Testing with GitHub Actions and Terratest](https://medium.com/@petriautero/automate-terraform-testing-with-github-actions-and-terratest-78d74331fdf8).
 
 
 ## Prerequisites
