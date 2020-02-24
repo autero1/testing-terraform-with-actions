@@ -78,15 +78,6 @@ func TestStaticSiteDeployment(t *testing.T) {
 		testURL(t, websiteEndpoint, "", 200, "Hello, index!")
 		testURL(t, websiteEndpoint, "notfound", 404, "Hello, error!")
 	})
-
-	// Run HTTP tests
-	test_structure.RunTestStage(t, "website_tests", func() {
-		terraformOptions := test_structure.LoadTerraformOptions(t, exampleDir)
-		websiteEndpoint := terraform.OutputRequired(t, terraformOptions, WebsiteOutput)
-
-		testURL(t, websiteEndpoint, "", 200, "Hello, index!")
-		testURL(t, websiteEndpoint, "notfound", 404, "Hello, error!")
-	})
 }
 
 func testURL(t *testing.T, endpoint string, path string, expectedStatus int, expectedBody string) {
